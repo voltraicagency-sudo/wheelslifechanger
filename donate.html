@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate — Wheels Life Changer</title>
+  <meta name="description" content="Support Wheels Life Changer. Donate funds, mobility equipment, or essentials to empower people with disabilities in South Africa.">
+  <link rel="icon" href="logo-w.webp">
+  <link rel="stylesheet" href="css/corporate.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <img src="logo-w.webp" alt="Wheels Life Changer" width="40" height="40">
+      <span class="logo-text">Wheels Life Changer</span>
+    </a>
+    <button class="hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Main">
+      <ul class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="what-we-do.html">Programs</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="get-involved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="donate.html" class="active nav-cta">Donate</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Donate</span>
+      <h1>Help Us Move the Mission</h1>
+      <p>Every contribution fuels a journey of dignity, hope, and access. Whether it's a wheelchair, a food parcel, or a financial gift — you are changing lives.</p>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="ways-h">
+    <div class="container">
+      <div class="text-center">
+        <span class="section-label">Ways to Give</span>
+        <h2 id="ways-h" class="section-title">Fuel Mobility. Empower Lives.</h2>
+        <p class="section-desc">Whether you give money, essentials, or mobility equipment — your contribution powers real change.</p>
+      </div>
+      <blockquote>
+        "Mobility gave me purpose. I now give that purpose to others." — Ronewa Mudzanani
+      </blockquote>
+      <div class="grid-3">
+        <div class="card animate">
+          <div class="card-icon">&#36;</div>
+          <h3>Monetary Donation</h3>
+          <p>Secure EFT, direct deposit, or online payment. Every rand goes directly to our programs.</p>
+        </div>
+        <div class="card animate">
+          <div class="card-icon">&#9881;</div>
+          <h3>Mobility Equipment</h3>
+          <p>Wheelchairs, walkers, crutches, and other assistive devices that restore independence.</p>
+        </div>
+        <div class="card animate">
+          <div class="card-icon">&#9829;</div>
+          <h3>Essentials</h3>
+          <p>Food parcels, hygiene packs, and educational materials for individuals and families.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" aria-labelledby="bank-h">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <span class="section-label">Bank Transfer</span>
+          <h2 id="bank-h" class="section-title">Direct Deposit</h2>
+          <p>Prefer to give via direct deposit? Use the details below to make a secure EFT donation.</p>
+          <div class="bank-details">
+            <div class="bank-row"><span>Account Name</span><span>Wheels Life Changer</span></div>
+            <div class="bank-row"><span>Bank</span><span>FNB (First National Bank)</span></div>
+            <div class="bank-row"><span>Account Number</span><span>63074241076</span></div>
+            <div class="bank-row"><span>Branch Code</span><span>250655</span></div>
+          </div>
+          <p style="font-size:0.8125rem;margin-top:12px;">Please include your name or organization as a reference. Email proof of payment to <strong>donate@wheelslifechanger.com</strong>.</p>
+        </div>
+        <div>
+          <span class="section-label">Donation Form</span>
+          <h2 class="section-title">Make a Contribution</h2>
+          <form class="form" action="#" method="post">
+            <div class="form-row">
+              <input type="text" placeholder="Full Name" required>
+              <input type="email" placeholder="Email Address" required>
+            </div>
+            <input type="tel" placeholder="Phone Number">
+
+            <div class="donation-toggle" role="group" aria-label="Donation frequency">
+              <button type="button" class="active" data-frequency="once">Give Once</button>
+              <button type="button" data-frequency="monthly">Monthly</button>
+            </div>
+
+            <div class="donation-amounts" role="group" aria-label="Donation amount">
+              <div class="donation-amount" data-amount="250" tabindex="0" role="button">
+                R250 <small>Mobility assessment</small>
+              </div>
+              <div class="donation-amount selected" data-amount="500" tabindex="0" role="button">
+                R500 <small>1 wheelchair</small>
+              </div>
+              <div class="donation-amount" data-amount="1000" tabindex="0" role="button">
+                R1000 <small>2 wheelchairs + training</small>
+              </div>
+              <div class="donation-amount" data-amount="other" tabindex="0" role="button">
+                Other <small>Custom amount</small>
+              </div>
+            </div>
+
+            <div class="donation-other" style="display:none;">
+              <input type="number" placeholder="Enter amount (ZAR)" min="1">
+            </div>
+
+            <select>
+              <option value="">What are you donating?</option>
+              <option selected>Monetary Donation</option>
+              <option>Mobility Equipment</option>
+              <option>Essentials</option>
+              <option>Other</option>
+            </select>
+            <textarea rows="3" placeholder="Description (amount, items, quantity, etc.)"></textarea>
+            <select>
+              <option value="">Delivery options</option>
+              <option>Drop off</option>
+              <option>Arrange pickup</option>
+              <option>Sponsor logistics</option>
+            </select>
+            <select>
+              <option value="">Recognition preference</option>
+              <option>Public</option>
+              <option>Anonymous</option>
+              <option>Certificate of Appreciation</option>
+            </select>
+            <label class="form-check">
+              <input type="checkbox"> I consent and confirm
+            </label>
+            <button type="submit" class="btn btn-primary">Submit Donation</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a href="index.html" class="logo">
+          <img src="logo-w.webp" alt="Wheels Life Changer" width="40" height="40">
+          <span class="logo-text">Wheels Life Changer</span>
+        </a>
+        <p>Every project we run is guided by one truth: leaving no one behind. We are a registered South African NPO.</p>
+        <div class="social-links">
+          <a href="https://www.tiktok.com/@wheelslifechanger" target="_blank" rel="noopener" aria-label="TikTok">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+          </a>
+          <a href="https://www.linkedin.com/company/wheels-life-changer/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="https://www.facebook.com/people/Wheels-life-changer/61552451590956/" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@issamholdings" target="_blank" rel="noopener" aria-label="YouTube">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+          </a>
+          <a href="https://x.com/wheelslife3145" target="_blank" rel="noopener" aria-label="X">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-us.html">About</a></li>
+          <li><a href="what-we-do.html">Programs</a></li>
+            <li><a href="news.html">News</a></li>
+          <li><a href="get-involved.html">Get Involved</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>More</h4>
+        <ul class="footer-links">
+          <li><a href="success-stories.html">Success Stories</a></li>
+          <li><a href="our-team.html">Our Team</a></li>
+          <li><a href="ambassadors.html">Ambassadors</a></li>
+          <li><a href="co-founder.html">Co-Founder</a></li>
+          <li><a href="faq-csr-reports.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul class="footer-links">
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-service.html">Terms of Service</a></li>
+          <li><a href="paia-manual.html">PAIA Manual</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <p style="font-size:0.875rem;color:var(--clr-footer-text);">Stay up to date with our news and events.</p>
+        <form class="newsletter-form" action="#" method="post">
+          <label for="nl-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;">Email</label>
+          <input type="email" id="nl-email" placeholder="Email address" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Wheels Life Changer. All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/27607449089/?text=Hi%20Wheels%20Life%20Changer%2C%20I%20visited%20your%20website%20and%20would%20like%20to%20learn%20more." class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const h = document.querySelector('.hamburger'), n = document.querySelector('.nav-list');
+  h.addEventListener('click', function() {
+    const o = n.classList.toggle('open');
+    h.classList.toggle('active'); h.setAttribute('aria-expanded', o);
+  });
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.site-header')) { n.classList.remove('open'); h.classList.remove('active'); h.setAttribute('aria-expanded','false'); }
+  });
+  const obs = new IntersectionObserver(e => { e.forEach(e => { if(e.isIntersecting) { e.target.classList.add('visible'); } }); }, { threshold:0.1 });
+  document.querySelectorAll('.animate').forEach(e => obs.observe(e));
+
+  const amounts = document.querySelectorAll('.donation-amount');
+  const otherWrap = document.querySelector('.donation-other');
+  const otherInput = otherWrap ? otherWrap.querySelector('input') : null;
+  amounts.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      amounts.forEach(function(b) { b.classList.remove('selected'); });
+      this.classList.add('selected');
+      if (this.dataset.amount === 'other') {
+        otherWrap.style.display = 'block';
+        if (otherInput) otherInput.focus();
+      } else {
+        otherWrap.style.display = 'none';
+        if (otherInput) otherInput.value = '';
+      }
+    });
+  });
+
+  const toggleBtns = document.querySelectorAll('.donation-toggle button');
+  toggleBtns.forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      toggleBtns.forEach(function(b) { b.classList.remove('active'); });
+      this.classList.add('active');
+    });
+  });
+});
+
+
+
+
+// Popup System
+var consentGiven = localStorage.getItem('cookieConsent');
+if (!consentGiven && !localStorage.getItem('cookieDeclined')) {
+  setTimeout(function() { document.getElementById('cookieBar').classList.add('show'); }, 500);
+}
+function acceptCookies() {
+  localStorage.setItem('cookieConsent', 'true');
+  document.getElementById('cookieBar').classList.remove('show');
+  initPopups();
+}
+function declineCookies() {
+  localStorage.setItem('cookieDeclined', 'true');
+  document.getElementById('cookieBar').classList.remove('show');
+}
+function closePopup(id) { document.getElementById(id).classList.remove('open'); }
+function closeToast() { document.getElementById('storyToast').classList.remove('show'); }
+function subscribeNewsletter(e) {
+  e.preventDefault();
+  var email = document.getElementById('nlPopupEmail').value;
+  if (email) { closePopup('newsletterPopup'); alert('Thank you for subscribing!'); }
+}
+function initPopups() {
+  if (localStorage.getItem('donationShown')) return;
+  setTimeout(function() {
+    var p = document.getElementById('donationPopup');
+    if (p) { p.classList.add('open'); localStorage.setItem('donationShown', 'true'); }
+  }, 30000);
+  setTimeout(function() {
+    var stories = [
+      { name: 'Ritshidze Nemahotola', label: 'Wheelchair Recipient', text: '"I stayed home for two years. Now I go to school every day. My wheelchair gave me my future back."', avatar: '../team/murendeni.webp' },
+      { name: 'Lesego Marema', label: 'Early Childhood Beneficiary', text: '"She is not limited. She is limitless."', avatar: '../team/ndivhaleni.webp' },
+      { name: 'Nolitha Kibido', label: 'Para-Athlete', text: '"People told me I would never achieve anything. Now I represent my country."', avatar: '../team/pfunzo.webp' }
+    ];
+    var story = stories[Math.floor(Math.random() * stories.length)];
+    var t = document.getElementById('storyToast');
+    if (t) {
+      document.getElementById('toastName').textContent = story.name;
+      document.getElementById('toastLabel').textContent = story.label;
+      document.getElementById('toastText').textContent = story.text;
+      document.getElementById('toastAvatar').src = story.avatar;
+      t.classList.add('show');
+      localStorage.setItem('donationShown', 'true');
+    }
+  }, 15000);
+}
+(function() {
+  var exited = localStorage.getItem('newsletterShown');
+  document.addEventListener('mouseleave', function(e) {
+    if (e.clientY > 0 || exited) return;
+    if (!localStorage.getItem('cookieConsent')) return;
+    exited = true;
+    localStorage.setItem('newsletterShown', 'true');
+    setTimeout(function() { var p = document.getElementById('newsletterPopup'); if (p) p.classList.add('open'); }, 300);
+  });
+})();
+if (consentGiven) { initPopups(); }
+
+</script>
+    <nav class="mobile-bottom-nav" aria-label="Quick navigation">
+    <ul>
+      <li><a href="index.html" class="" aria-label="Home"><span class="nav-icon">&#8962;</span>Home</a></li>
+      <li><a href="about-us.html" class="" aria-label="About"><span class="nav-icon">&#9432;</span>About</a></li>
+      <li><a href="what-we-do.html" class="" aria-label="Programs"><span class="nav-icon">&#9881;</span>Programs</a></li>
+      <li><a href="news.html" aria-label="News"><span class="nav-icon">&#9998;</span>News</a></li>
+      <li><a href="get-involved.html" class="" aria-label="Volunteer"><span class="nav-icon">&#9829;</span>Volunteer</a></li>
+      <li><a href="donate.html" class="active" aria-label="Donate"><span class="nav-icon">&#36;</span>Donate</a></li>
+      <li><a href="https://wa.me/27607449089" target="_blank" rel="noopener" aria-label="WhatsApp"><span class="nav-icon" style="color:#25D366;">&#9993;</span>Chat</a></li>
+    </ul>
+  </nav>
+<!-- Cookie Consent -->
+<div class="cookie-bar" id="cookieBar">
+  <p>We use cookies to improve your experience. By continuing, you agree to our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+  <div class="cookie-actions">
+    <button class="cookie-btn cookie-btn-decline" onclick="declineCookies()">Decline</button>
+    <button class="cookie-btn cookie-btn-accept" onclick="acceptCookies()">Accept All</button>
+  </div>
+</div>
+
+<!-- Donation Prompt Popup -->
+<div class="popup-overlay" id="donationPopup">
+  <div class="popup-modal">
+    <button class="popup-close" onclick="closePopup('donationPopup')">&times;</button>
+    <div class="popup-icon">&#9829;</div>
+    <h3>Give the Gift of Mobility</h3>
+    <p>One wheelchair costs as little as R500 and can transform a person's entire life — restoring independence, dignity, and hope.</p>
+    <a href="donate.html" class="btn btn-primary btn-lg" onclick="closePopup('donationPopup')">Donate Now</a>
+    <button class="popup-skip" onclick="closePopup('donationPopup')">Maybe later</button>
+  </div>
+</div>
+
+<!-- Newsletter Signup Popup -->
+<div class="popup-overlay" id="newsletterPopup">
+  <div class="popup-modal">
+    <button class="popup-close" onclick="closePopup('newsletterPopup')">&times;</button>
+    <div class="popup-icon">&#9993;</div>
+    <h3>Stay Inspired</h3>
+    <p>Stories of hope, impact updates, and ways to help — delivered to your inbox.</p>
+    <form onsubmit="subscribeNewsletter(event)">
+      <input type="email" id="nlPopupEmail" placeholder="Your email address" required>
+      <button type="submit" class="btn btn-primary btn-lg">Subscribe</button>
+    </form>
+    <button class="popup-skip" onclick="closePopup('newsletterPopup')">Not now</button>
+  </div>
+</div>
+
+<!-- Success Story Toast -->
+<div class="story-toast" id="storyToast">
+  <button class="toast-close" onclick="closeToast()">&times;</button>
+  <div class="toast-header">
+    <img src="team/Murendeni-Nemavhola.webp" alt="" class="toast-avatar" id="toastAvatar">
+    <div>
+      <div class="toast-name" id="toastName">Ritshidze Nemahotola</div>
+      <div class="toast-label" id="toastLabel">Wheelchair Recipient</div>
+    </div>
+  </div>
+  <p id="toastText">"I stayed home for two years. Now I go to school every day. My wheelchair gave me my future back."</p>
+  <a href="success-stories.html" class="btn btn-secondary btn-sm">Read Full Story</a>
+</div>
+
+</body>
+</html>
